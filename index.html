@@ -25,9 +25,22 @@ header{display:flex;align-items:center;gap:16px;padding:18px;border-bottom:1px s
   border-radius:32px;
   font-size:22px;
   font-weight:700;
-}}
-.stats{display:flex;justify-content:space-around;padding:18px}
-.section{padding:20px}
+}
+.stats{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:28px;
+  padding:18px 12px;
+  border-top:1px solid #E5E5E5;
+  border-bottom:1px solid #E5E5E5;
+  flex-wrap:nowrap;   /* एक लाइन में रहेगा */
+}
+
+.stats div{
+  text-align:center;
+  min-width:90px;
+}
 .card{background:#F8F9FA;padding:16px;border-radius:14px;margin:12px 0}
 .screens{display:flex;gap:12px;overflow:auto}
 .shot{min-width:170px;height:320px;background:#E8EAED;border-radius:20px;display:flex;align-items:center;justify-content:center;color:#5f6368}.shot img{
